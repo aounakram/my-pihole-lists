@@ -1,5 +1,7 @@
+r(\[0-9\]+)---sn(\[a-z-0-9\])+\\.googlevideo.com
 ^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.]
 ^(.+[-_.])??m?ad[sxv]?[0-9]*[-_.]
+^(.+[-_.])??telemetry[-.]
 ^(.+[-_.])??xn--
 ^adim(age|g)s?[0-9]*[-_.]
 ^adtrack(er|ing)?[0-9]*[-.]
@@ -11,7 +13,12 @@
 ^count(ers?)?[0-9]*[-.]
 ^pixels?[-.]
 ^stat(s|istics)?[0-9]*[-.]
-^telemetry[-.]
 ^track(ers?|ing)?[0-9]*[-.]
 ^traff(ic)?[-.]
-(^|\.)roku\.com$
+(^|\.)6\.googlevideo\.com$
+(^|\.)7\.googlevideo\.com$
+(^|\.)d\.googlevideo\.com$
+(^|\.)k\.googlevideo\.com$
+(^|\.)r\.googlevideo\.com$
+(^|\.)y\.googlevideo\.com$
+(^|\.)z\.googlevideo\.com$
